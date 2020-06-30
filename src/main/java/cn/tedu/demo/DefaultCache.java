@@ -1,4 +1,4 @@
-package cn.tedu.pj.common.cache;
+package cn.tedu.demo;
 
 
 import org.springframework.stereotype.Component;

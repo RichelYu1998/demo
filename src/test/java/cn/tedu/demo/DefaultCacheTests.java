@@ -1,4 +1,4 @@
-package cn.tedu.pj.common.cache;
+package cn.tedu.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
