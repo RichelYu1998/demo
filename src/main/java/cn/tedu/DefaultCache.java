@@ -1,4 +1,4 @@
-package cn.tedu.demo;
+package cn.tedu;
 
 
 import org.springframework.stereotype.Component;
