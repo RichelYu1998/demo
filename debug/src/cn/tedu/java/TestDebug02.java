@@ -1,0 +1,12 @@
+package cn.tedu.java;
+
+public class TestDebug02 {
+    public static void main(String[] args) {
+        Integer a1=100;//等号右边的代码编译执行的操作是Integer.valueOf(100)
+        Integer a2=100;
+        Integer a3=200;//Integer.valueOf(200),没有则会new Integer(200)
+        Integer a4=200;
+        System.out.println(a1==a2);//true,Integer类有一个整数池，池中存储了-128~127
+        System.out.println(a3==a4);//false,Integer类有一个整数池，池中没有则会new Integer(200)
+    }
+}
